@@ -5,9 +5,17 @@ h1{
 .card{
   width: 250px;
   height: 150px;
-  background-color: palevioletred;
+  background-color: rgb(102, 102, 172);
 }
 
-p {
+.category {
+  color: goldenrod;
+}
+
+h3 , h4{
   text-align: center;
+}
+
+h4{
+  color: #fff;
 }
