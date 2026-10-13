@@ -12,10 +12,44 @@ h1{
   color: goldenrod;
 }
 
-h3 , h4{
+h3 , h4 , h2{
   text-align: center;
 }
 
 h4{
   color: #fff;
+}
+
+form {
+  width: 500px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items:center;
+  margin: 2rem;
+  background-color: rgb(219, 231, 231);
+}
+
+input{
+  width: 15rem;
+  height: 2rem;
+  margin: 1rem;
+}
+
+.Delete {
+  background-color: red;
+  color: #fff;
+  width: 8rem;
+  height: 3rem;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.Add {
+  background:green;
+  color: #fff;
+  height: 2rem;
 }

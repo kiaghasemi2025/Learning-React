@@ -15,4 +15,4 @@ function Flashcard({ category = "General", question = "?", answer = "...." }) {
 }
 
 
-export default Flashcard
+export default Flashcard 
